@@ -19,7 +19,7 @@ servers = {
   sails:   {type: :javascript,  provision: %w{node sails mongodb_client} },
   mean:    {type: :javascript,  provision: %w{git node mean mongodb_client} },
   nginx:   {type: :static,      provision: %w{nginx-static} },
-  react:   {type: :javascript,  provision: %w{node git} }
+  react:   {type: :javascript,  provision: %w{node git react-} }
 }.select { |key,value| active.include? key }
 
 types = {
