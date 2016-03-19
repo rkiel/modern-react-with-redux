@@ -1,7 +1,7 @@
 {
   "name": "vagrant",
   "version": "1.0.0",
-  "description": "npm install",
+  "description": "```unix npm install ```",
   "main": "webpack.config.js",
   "directories": {
     "test": "test"
@@ -11,17 +11,9 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rkiel/modern-react-with-redux.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rkiel/modern-react-with-redux/issues"
-  },
-  "homepage": "https://github.com/rkiel/modern-react-with-redux#readme",
   "dependencies": {
     "babel-preset-stage-1": "^6.5.0",
     "lodash": "^4.6.1",
