@@ -2,3 +2,4 @@
 .rvmrc
 node_modules
 npm-debug.log
+src/config/youtube_api.js

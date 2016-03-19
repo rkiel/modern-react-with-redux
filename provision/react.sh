@@ -26,6 +26,10 @@ npm install react-router --save >/dev/null 2>&1
 echo "  installing lodash"
 npm install lodash --save >/dev/null 2>&1
 
+echo "  installing youtube-api-search"
+npm install youtube-api-search --save >/dev/null 2>&1
+
+
 # the core logic of Babel
 echo "  installing babel-core"
 npm install babel-core --save-dev >/dev/null 2>&1
