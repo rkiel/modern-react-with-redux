@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import YTSearch from 'youtube-api-search';
 
@@ -9,12 +9,14 @@ YTSearch({ key: YTAPI.key, term: 'surfboards' }, (data) => {
   console.log(data);
 });
 
-const App = () => {
-  return (
-    <div>
-      <SearchBar />
-    </div>
-    );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <SearchBar />
+      </div>
+      );
+  }
 }
 
 ReactDOM.render(<App />, document.querySelector('.container'));
